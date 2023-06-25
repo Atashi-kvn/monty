@@ -1,5 +1,3 @@
-pall.c
-
 #include "monty.h"
 #include <stdio.h>
 /**

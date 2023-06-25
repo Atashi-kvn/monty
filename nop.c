@@ -1,5 +1,6 @@
 #include "monty.h"
 #include <stdio.h>
+#include <stdio.h>
 /**
   *f_nop- nothing
   *@head: stack head

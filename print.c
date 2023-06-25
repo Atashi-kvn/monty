@@ -1,4 +1,5 @@
 #include "monty.h"
+#include <stdlib.h>
 /**
  * f_pint - prints the top stack
  * @head: stack head
