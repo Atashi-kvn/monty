@@ -14,7 +14,7 @@ typedef struct stack_s
 	struct stack_s *prev;
 	struct stack_s *next;
 } stack_t;
-typedef struct bus
+typedef struct bus_s
 {
 
 	char *arg;
