@@ -1,8 +1,6 @@
-#include <stdio.h>
 #include "monty.h"
-#include <stdlib.h>
+#include <stdio.h>
 bus_t bus = {NULL, NULL, NULL, 0};
-void execute(char* content, stack_t *stack, int counter, FILE* file);
 /**
 * main - monty code interpreter
 * @argc: number of arguments
@@ -31,11 +29,11 @@ int main(int argc, char *argv[])
 		exit(EXIT_FAILURE);
 	}
 	while (read_line > 0)
-	{&stack
+	{
 		content = NULL;
 		read_line = getline(&content, &size, file);
-		bus.content = content;&stack
-		counter++;&stack
+		bus.content = content;
+		counter++;
 		if (read_line > 0)
 		{
 			execute(content, &stack, counter, file);

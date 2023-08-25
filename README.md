@@ -45,5 +45,4 @@ To ensure the correctness of the Monty interpreter, a set of tests has been prov
 ## Authors
 - [Atandi Kelvin](https://github.com/Atashi_kvn)
 
-## Acknowledgements
-This project is part of the [Holberton School](https://www.holbertonschool.com/) curriculum. Special thanks to all the staff and mentors for their guidance and support.
+

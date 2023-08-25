@@ -1,7 +1,6 @@
 #include "monty.h"
-#include <stdlib.h>
 /**
- * f_pop - will print the top stack
+ * f_pop - removes the top element from the stack. It effectively reverses the last "push" operation.
  * @head: stack head
  * @counter: line_number
  * Return: no return
